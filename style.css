@@ -1,0 +1,49 @@
+h1 {
+  color: blue;
+  font-size: 36px;
+  font-family: Times;
+}
+
+img {
+  width: 25%;
+  height: auto;
+  border-width: 2px;
+  border-color: green;
+}
+
+header {
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
+section {
+  padding: 50px;
+}
+
+article {
+  background-color: gray;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  background-color: white;
+}
+
+li {
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+body {
+  background-color: #6A9639;
+}
