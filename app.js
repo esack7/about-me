@@ -32,6 +32,7 @@ function question1() {
   console.log('When asked if user thought I graduated from college, user responded ' + ikeCollege);
 }
 question1();
+console.log('Question 1 made into a function and then called function question1()');
 
 //Question 2
 function question2() {
@@ -47,7 +48,7 @@ function question2() {
   console.log('When asked if user thought I have a diverse work experience, user responded ' + ikeWorkHistory);
 }
 question2();
-
+console.log('Question 2 made into a function and then called function question2()');
 //Question 3
 function question3() {
   var ikeFood = prompt('Here\' a question that gets to the heart of the matter. Do you think I thoroughly enjoy eating?');
@@ -63,7 +64,7 @@ function question3() {
   console.log('When asked if user thought I thoroughly enjoy food, user responded ' + ikeFood);
 }
 question3();
-
+console.log('Question 3 made into a function and then called function question3()');
 //Quuestion 4
 function question4() {
   var ikeFirst = prompt('My first exposure to problem solving when it comes to computers was when I crashed my dad PC and spent all night getting it running again. Do you think this is true?');
@@ -77,7 +78,7 @@ function question4() {
   console.log('When asked if user thought I in computer problem solving is true, user responded ' + ikeFirst);
 }
 question4();
-
+console.log('Question 4 made into a function and then called function question4()');
 //Question 5
 function question5() {
   var ikeFamily = prompt(userName + ', do I have 12 children?');
@@ -92,7 +93,7 @@ function question5() {
   console.log('When asked if user thought I have 12 children, user responded ' + ikeFamily);
 }
 question5();
-
+console.log('Question 5 made into a function and then called function question5()');
 alert('Now, ' + 'let\'s try a couple more questions that aren\'t yes or no questions!');
 
 // Question 6
@@ -125,10 +126,12 @@ function question6() {
     }
 
   } while (attempts <= 3 && correct === false);
+  correctSiblings++;
   alert('I am one of ' + correctSiblings + ' kids');
   console.log('The user was correct: ' + correct);
 }
 question6();
+console.log('Question 6 made into a function and then called function question6()');
 //End of game guessing siblings.
 
 function question7() {
@@ -154,6 +157,6 @@ function question7() {
 // Letting user know my nick names.
 }
 question7();
-
+console.log('Question 7 made into a function and then called function question7()');
 alert('Thanks for playing!  You got ' + correctAnswers + ' out of 7.');
 // Letting the user know how they scored on the games.
