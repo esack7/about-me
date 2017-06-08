@@ -97,39 +97,39 @@ alert('Now, ' + 'let\'s try a couple more questions that aren\'t yes or no quest
 
 // Question 6
 // Game where the user guesses how many siblings I have.
-/*function question6() {
-var correctSiblings = 5;
-var correct = false;
-var ikeSiblings;
-var attempts = 0;
+function question6() {
+  var correctSiblings = 5;
+  var correct = false;
+  var ikeSiblings;
+  var attempts = 0;
 
-do { ikeSiblings = parseInt(prompt('How many siblings do you think I have?'));
-  console.log('User guessed I have ' + ikeSiblings + ' siblings');
-  attempts++;
-  if (ikeSiblings > 10) {
-    alert('That is too high. You are very cold.');
+  do { ikeSiblings = parseInt(prompt('How many siblings do you think I have?'));
+    console.log('User guessed I have ' + ikeSiblings + ' siblings');
+    attempts++;
+    if (ikeSiblings > 10) {
+      alert('That is too high. You are very cold.');
 
-  } else if (ikeSiblings > 5) {
-    alert('That is too high. You are cold.');
+    } else if (ikeSiblings > 5) {
+      alert('That is too high. You are cold.');
 
-  } else if (ikeSiblings < 1) {
-    alert('That is too low. You are very cold');
+    } else if (ikeSiblings < 1) {
+      alert('That is too low. You are very cold');
 
-  } else if (ikeSiblings < 5) {
-    alert('That is too low. You are cold');
+    } else if (ikeSiblings < 5) {
+      alert('That is too low. You are cold');
 
-  } else if (ikeSiblings === correctSiblings) {
-    alert('You are correct');
-    correct = true;
-    correctAnswers++;
-  }
+    } else if (ikeSiblings === correctSiblings) {
+      alert('You are correct');
+      correct = true;
+      correctAnswers++;
+    }
 
-} while (attempts <= 3 && correct === false) {
-  alert('I am one of '+ correctSiblings +' kids')
-  }
-    console.log('The user was correct: ' + correct);
+  } while (attempts <= 3 && correct === false);
+  alert('I am one of ' + correctSiblings + ' kids');
+  console.log('The user was correct: ' + correct);
 }
-//End of game guessing siblings.*/
+question6();
+//End of game guessing siblings.
 
 function question7() {
 //Start of game to guess my nick names.
