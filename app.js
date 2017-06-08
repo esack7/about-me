@@ -159,4 +159,4 @@ function question7() {
 question7();
 console.log('Question 7 made into a function and then called function question7()');
 alert('Thanks for playing!  You got ' + correctAnswers + ' out of 7.');
-// Letting the user know how they scored on the games.
+// Letting the user know how they scored on the games
