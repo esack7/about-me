@@ -2,13 +2,12 @@ h1 {
   color: blue;
   font-size: 36px;
   font-family: Times;
+
 }
 
 img {
   width: 25%;
   height: auto;
-  border-width: 2px;
-  border-color: green;
 }
 
 header {
